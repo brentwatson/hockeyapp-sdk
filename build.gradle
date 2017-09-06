@@ -1,5 +1,5 @@
 group 'com.brentwatson.hockeyapp.sdk'
-version '1.0-SNAPSHOT'
+version '0.1'
 
 buildscript {
     ext.kotlin_version = '1.1.4-2'
