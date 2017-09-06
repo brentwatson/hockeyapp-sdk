@@ -5,11 +5,41 @@ Implementation of the [HockeyApp API](https://github.com/google/gson) endpoints 
 
 # Setup
 
-Builds can be found on jitpack.
+Builds can be found on [jitpack](https://jitpack.io/#brentwatson/hockeyapp-sdk).
 
 ## Gradle
 
+```gradle
+repositories {
+    ...
+    maven { url 'https://jitpack.io' }
+}
+
+...
+
+dependencies {
+    compile 'com.github.brentwatson:hockeyapp-sdk:0.1'
+}
+
+```
 ## Maven
+
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+
+...
+
+<dependency>
+    <groupId>com.github.brentwatson</groupId>
+    <artifactId>hockeyapp-sdk</artifactId>
+    <version>0.1</version>
+</dependency>
+```
 
 # Demo
 
